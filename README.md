@@ -1,4 +1,4 @@
-# Web Development Project 1 - _Name of App Here_
+# Web Development Project 1 - 2023 Video Games Community Board
 
 Submitted by: Joey Whitehead
 
