@@ -23,7 +23,7 @@ const Card = ({ img, name, price, link }) => {
     return (
         <>
             <section className='card'>
-                <img className="logo" src={img} alt="Event" loading="lazy" />
+                <img className="logo" src={img} alt={name} loading="lazy" />
                 <div className="bundle">
                     <h2>{name}</h2>
                     <p>${price}</p>

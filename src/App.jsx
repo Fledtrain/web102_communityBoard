@@ -13,6 +13,9 @@ const App = () => {
           <Event />
         </div>
       </header>
+      <footer>
+        <p>Created by Joey Whitehead for CodePath Web 102</p>
+      </footer>
     </>
   )
 }
