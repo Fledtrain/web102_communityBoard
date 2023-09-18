@@ -55,7 +55,7 @@ button:focus-visible {
 
 /* Style for card */
 .card {
-  border: 2px solid;
+  border: black 3px solid;
   border-radius: 20px;
   padding: 8px;
   margin: 10px 0 10px 0;
@@ -63,16 +63,39 @@ button:focus-visible {
 
 .bundle h2 {
   font-size: medium;
+  color: black;
 }
 .bundle {
   font-size: small;
+  font-weight: 600;
+}
+
+/* Background pic */
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("videoGame.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Adjust the height as needed */
+  position: relative;
+}
+
+/* Optional: Add a background color to make the text more readable */
+.heading h1 {
+  position: relative;
+  z-index: 1;
+  color: #1a1a1a;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 16px; /* Optional: Add padding to the heading for better readability */
 }
 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #a89494;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -82,7 +105,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: #212a31;
     background-color: #ffffff;
   }
   a:hover {

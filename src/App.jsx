@@ -6,7 +6,9 @@ const App = () => {
   return (
     <>
       <header>
-        <h1>Best Video Games of 2023</h1>
+        <div className='heading'>
+          <h1>Best Video Games of 2023</h1>
+        </div>
         <div>
           <Event />
         </div>
