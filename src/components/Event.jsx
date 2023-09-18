@@ -22,16 +22,16 @@ const Card = ({ img, name, price, link }) => {
 
     return (
         <>
-            <aside className='card'>
+            <section className='card'>
                 <img className="logo" src={img} alt="Event" loading="lazy" />
                 <div className="bundle">
-                    <h5>{name}</h5>
+                    <h2>{name}</h2>
                     <p>${price}</p>
                 </div>
                 <a href={link} target='_blank' rel='noreferrer' >
                     View Game
                 </a>
-            </aside>
+            </section>
         </>
     )
 }

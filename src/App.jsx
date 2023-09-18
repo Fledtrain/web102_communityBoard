@@ -5,10 +5,12 @@ const App = () => {
 
   return (
     <>
-      <div>
+      <header>
         <h1>Best Video Games of 2023</h1>
-        <Event />
-      </div>
+        <div>
+          <Event />
+        </div>
+      </header>
     </>
   )
 }
