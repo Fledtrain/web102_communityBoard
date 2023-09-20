@@ -2,9 +2,9 @@
 
 Submitted by: Joey Whitehead
 
-This web app: **insert description**
+This web app: Best Video Games of 2023 Community Board, check out each trailer by clicking the button on each card!
 
-Time spent: 4 hours spent in total
+Time spent: 5 hours spent in total
 
 ## Required Features
 
@@ -16,11 +16,11 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [x] Buttons or links to a related resources are on each card component
-- [ ] The site is responsive for both desktop and mobile formats
+- [x] The site is responsive for both desktop and mobile formats
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+- [x] Made sure to add lazy loading for the images!
 
 ## Video Walkthrough
 
@@ -30,16 +30,11 @@ Here's a walkthrough of implemented required features:
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
-
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with LICEcap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+I had a few challenges when designing the cards and using grid box to align everything properly. As well as making every box the same size and making sure most of the images were the same size format.
 
 ## License
 
