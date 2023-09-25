@@ -15,6 +15,7 @@ const App = () => {
       </header>
       <footer>
         <p>Created by Joey Whitehead for CodePath Web 102</p>
+        
       </footer>
     </>
   )
