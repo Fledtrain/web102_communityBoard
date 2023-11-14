@@ -1,3 +1,7 @@
+/** Returns the Event component
+ * @component 
+ * @returns {Function} - Card component
+ */
 const Event = () => {
     return (
         <>
@@ -17,6 +21,13 @@ const Event = () => {
     )
 }
 
+/** Returns the Card component
+ * @param {string} img - Image of game
+ * @param {string} name - Name of game
+ * @param {number} price - Price of game
+ * @param {string} link - Link to game
+ * @returns {void} - Returns the Card component
+ */
 // eslint-disable-next-line react/prop-types
 const Card = ({ img, name, price, link }) => {
 
