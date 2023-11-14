@@ -1,6 +1,6 @@
 /** Returns the Event component
  * @component 
- * @returns {Function} - Card component
+ * @returns {} - Card component
  */
 const Event = () => {
     return (

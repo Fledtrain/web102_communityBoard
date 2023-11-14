@@ -1,8 +1,9 @@
+//@ts-check
+import React from 'react'
 import './App.css'
 import Event from './components/Event'
 
 const App = () => {
-
   return (
     <>
       <header>
