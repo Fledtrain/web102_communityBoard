@@ -1,3 +1,6 @@
+// @ts-check
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
 /** Returns the Event component
  * @component 
  * @returns {React.JSX.Element} - Card component
@@ -22,10 +25,7 @@ const Event = () => {
 }
 
 /** Returns the Card component
- * @param {string} img - Image of game
- * @param {string} name - Name of game
- * @param {number} price - Price of game
- * @param {string} links - Link to game
+ * @param {{img: string, name: string, price: number, links: string}}
  * @returns {React.JSX.Element} - Returns the Card component
  */
 // eslint-disable-next-line react/prop-types

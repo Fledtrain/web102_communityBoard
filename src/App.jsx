@@ -1,4 +1,5 @@
 //@ts-check
+// eslint-disable-next-line no-unused-vars
 import React from 'react'
 import './App.css'
 import Event from './components/Event'
@@ -16,7 +17,7 @@ const App = () => {
       </header>
       <footer>
         <p>Created by Joey Whitehead for CodePath Web 102</p>
-        
+
       </footer>
     </>
   )
